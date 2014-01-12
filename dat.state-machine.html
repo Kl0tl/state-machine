@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>dat state-machine</title>
+
+<script type="text/javascript" src="state-machine.readonly-transition.js"></script>
+
+</head>
+<body><script type="text/javascript">
+
+var machina = StateMachine.create('idle', {
+	'idle': ['walk'],
+	'walk': ['idle', 'run'],
+	'run': ['walk']
+});
+
+</script></body>
+</html>

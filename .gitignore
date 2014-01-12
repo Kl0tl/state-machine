@@ -1,0 +1,4 @@
+*.sublime-workspace
+scenario
+
+node_modules
